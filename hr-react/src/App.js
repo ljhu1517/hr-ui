@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import AddNewEmployee from './AddNewEmployee';
 import EditEmployee from "./EditEmployee";
 import ViewAll from "./ViewAll";
+import Delete from "./Delete";
 
 import './App.css';
 
@@ -13,6 +14,7 @@ class App extends Component {
     const addNewEmployeePath =   "/AddNewEmployee";
     const editEmployeePath = "/EditEmployee";
     const viewAllPath = "/ViewAll";
+    const deletePath ="/Delete";
 
     return (
       <div> 
@@ -22,6 +24,8 @@ class App extends Component {
             <Route path = {addNewEmployeePath} component = {AddNewEmployee} />
             <Route path = {editEmployeePath} component = {EditEmployee} />
             <Route path = {viewAllPath} component = {ViewAll} /> 
+            <Route path = {deletePath} component = {Delete} /> 
+
           </Switch>
         </Router>
 

@@ -97,10 +97,10 @@ class ViewAll extends baseClass {
                     }
             },{
                 Header: 'Delete', 
-                // Cell: 
-                //     ({row}) => {
-                //         return(<button onClick={this.handleDelete(row.employeeId)}>Delete </button>)
-                //     }
+                Cell: 
+                    ({row}) => {
+                        return (<a href={"/Delete?id="+row.employeeId}>Delete</a>)
+                    }
              }
         ];
         
