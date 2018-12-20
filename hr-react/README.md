@@ -1,13 +1,11 @@
 # Human Resources CRUD Table
-> This is a CRUD application for use by a human resources department written with React. React Query Params and React Table were used. The application allows a human resources person to view existing employees, edit their information, delete them from the table, and add new ones. 
+> This is a CRUD application for use by a human resources department written with React. React Query Params and React Table were used. The application allows a human resources person to view existing employees, edit their information, delete them from the table, and add new ones. The employees characteristics include first name, last name, id, manager id, department id, hire date, email address, and salary, and job id. 
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
 ![](header.png)
-
-## Usage example
 
 ## Meta
 
